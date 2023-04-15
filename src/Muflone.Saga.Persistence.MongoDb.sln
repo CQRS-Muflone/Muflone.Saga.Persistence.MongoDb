@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Muflone.Saga.Persistence.MongoDb", "Muflone.Saga.Persistence.MongoDb\Muflone.Saga.Persistence.MongoDb.csproj", "{56340BF7-B33C-4AC3-A43A-8DFC813EC2F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DF90A1E4-3B1B-4708-BF7C-28AA2DFFC432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muflone.Saga.Persistence.MongoDb.Tests", "Muflone.Saga.Persistence.MongoDb.Tests\Muflone.Saga.Persistence.MongoDb.Tests.csproj", "{111AB1C4-0ACF-4A09-91DC-05D72D755AA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56340BF7-B33C-4AC3-A43A-8DFC813EC2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56340BF7-B33C-4AC3-A43A-8DFC813EC2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56340BF7-B33C-4AC3-A43A-8DFC813EC2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56340BF7-B33C-4AC3-A43A-8DFC813EC2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111AB1C4-0ACF-4A09-91DC-05D72D755AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111AB1C4-0ACF-4A09-91DC-05D72D755AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111AB1C4-0ACF-4A09-91DC-05D72D755AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111AB1C4-0ACF-4A09-91DC-05D72D755AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{111AB1C4-0ACF-4A09-91DC-05D72D755AA5} = {DF90A1E4-3B1B-4708-BF7C-28AA2DFFC432}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E78314DB-D081-4E4D-B66C-ADD033D0850D}
+	EndGlobalSection
+EndGlobal
